@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ? Log In logo */
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(166, 166, 166);
+    background-color: #0885de;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 75px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* ? Log In Box */
+.login {
+    width: 350px;
+    height: 550px;
+    background-color: #ffffff;
+    border: solid 2px rgb(166, 166, 166);
+    border-radius: 15%;
+    margin: 5%;
+    padding: 35px 25px 25px 25px;
+}
+.login-input{
+    font-size: 20px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #0885de;
+    padding: 15px;
+    background: none;
+}
+
+/* ? Checkbox */
+#remember{
+    margin-top: 20px;
+    margin-left: -144px;
+}
+
+label{
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+    margin-left: -143px;
+}
+
+/* ? Log In Button */
+.log-in {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    background-color: #0885de;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+a {
+    font-size: 20px;
+    margin: 75px;
+    color: #0885de;
+}
+
+/* ? Sign Up Box */
+.signup{
+    width: 350px;
+    height: 550px;
+    background-color: #0885de;
+    border: solid 2px #0D70BA;
+    border-radius: 15%;
+    margin: 5%;
+    padding: 44px 25px 35px 25px;
+}
+
+h1{
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 60px;
+    margin-left: 75px;
+}
+
+/* ? Sign Up Button */
+.create-acc {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    color: #0885de;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.signup-input {
+    font-size: 20px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ffffff;
+    padding: 15px;
+    background: none;
+    }
+.signup-input::placeholder {
+    color: #ffffff;
+}
+.login, .sign-up{
+    display: inline-block;
+}
+
